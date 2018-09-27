@@ -292,6 +292,54 @@ body {
 	margin-left: 10%;
 }
 
+#maincontent {
+  background-color: #f3f3f3;
+	min-height: 100%;
+
+}
+
+#map {
+  height: 250px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.map-image {
+	width: 83.3%;
+	height: 250px;
+}
+
+.subscribe {
+	background: #e84343;
+}
+
+.subscribe-btn {
+	margin-top: 0;
+	margin-left: -1.5%;
+}
+
+footer {
+	height: 70px;
+	background: #000;
+}
+
+.footer-span {
+	color: white;
+	margin-left: -93%;
+}
+
+.footer-icon {
+	height: 20px;
+	margin-left: 300%;
+	margin-top: 10%;
+	justify-content: center;
+}
+
+.footer-copyright {
+	margin-left: 70%;
+	color: white;
+}
+
 @media screen and (max-width: 576px) {
 	.navbar-brand {
 		margin: 0;
@@ -359,6 +407,14 @@ body {
 	.submit {
 	margin-top: 10%;
 	margin-left: 10%;
+	}
+	
+	.map-image {
+	width: 100%;
+	}
+	
+	.footer-copyright {
+	margin-left: 40%;
 	}
 
 }
